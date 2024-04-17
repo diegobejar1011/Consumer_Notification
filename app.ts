@@ -30,7 +30,7 @@ amqplib.connect("amqp://18.209.192.241/", function (error0, connection) {
             headers,
           };
           const result = await fetch(
-            "http://localhost:4000/api/notification",
+            "http://54.224.95.218:4000/api/notification",
             req
           );
           const data = await result.json();
